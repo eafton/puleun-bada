@@ -1,0 +1,23 @@
+style "msstyles-default"
+{
+    engine "msstyles"
+    {
+        msstyles = "/home/user/Desktop/xs/luna.msstyles"
+		color_scheme = "NormalColor"
+		font_size = "NormalSize"
+   }
+}
+
+class "*" style "msstyles-default"
+class "GtkButton" style "msstyles-default"
+class "GtkCheckButton" style "msstyles-default"
+class "GtkRadioButton" style "msstyles-default"
+class "GtkToggleButton" style "msstyles-default"
+class "GtkEntry" style "msstyles-default"
+class "GtkSpinButton" style "msstyles-default"
+class "GtkProgressBar" style "msstyles-default"
+class "GtkScrollbar" style "msstyles-default"
+class "GtkRange" style "msstyles-default"
+class "GtkNotebook" style "msstyles-default"
+class "GtkMenuItem" style "msstyles-default"
+class "GtkToolButton" style "msstyles-default"
