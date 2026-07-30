@@ -64,7 +64,7 @@ GtkTreeModel *init_model(void) {
 
     image = gtk_icon_theme_load_icon(icon_theme, "scanner", 32, GTK_ICON_LOOKUP_FORCE_REGULAR, NULL);
 	gtk_list_store_append(list_store, &iter);
-	gtk_list_store_set(list_store, &iter, COL_DISPLAY_NAME,  "Space Dynamics ArScan Flatbed (FOX MCCLOUD USES THIS TO FIGHT HIS RIVAL WOLF O DONNELL IN PAPERWORK!!!)", COL_PIXBUF, image, -1);
+	gtk_list_store_set(list_store, &iter, COL_DISPLAY_NAME,  "Space Dynamics Arscan Flatbed", COL_PIXBUF, image, -1);
   	g_object_unref(image);
 
 	return GTK_TREE_MODEL(list_store);

@@ -1,0 +1,8 @@
+style "pbui-default" {
+    engine "pbui" {
+        gtk3_theme = "/usr/share/themes/BlueMenta"
+        integer_scale = 1
+    }
+}
+
+class "GtkWidget" style "pbui-default"
